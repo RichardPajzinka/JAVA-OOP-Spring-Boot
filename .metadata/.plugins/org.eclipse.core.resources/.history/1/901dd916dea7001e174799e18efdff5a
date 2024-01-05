@@ -1,0 +1,7 @@
+package com.project.learnspring;
+
+public class Snippet {
+	 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'app03GamingMainSpringBeans.GamingConfiguration': Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.project.learnspring.App03GamingMainSpringBeans' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	org.springframework.beans.factory.UnsatisfiedDependencyException
+}
+

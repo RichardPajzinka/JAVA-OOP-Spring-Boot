@@ -1,0 +1,5 @@
+package com.springboot.learnjpaandhibernate.jpa;
+
+public interface SpringDataJpaRepository extends JpaRepository{
+
+}

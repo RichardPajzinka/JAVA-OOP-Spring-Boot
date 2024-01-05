@@ -1,0 +1,13 @@
+package com.project.learnspring;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App02Spring {
+
+//chceme tu pridat spring context a managovat tu veci (objekty)
+//na configuaciu možeme použit @Configuration
+	public static void main(String[] args) {
+		var context = new AnnotationConfigApplicationContext(SpringConfigurationClass.class);
+	}
+
+}

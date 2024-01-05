@@ -1,0 +1,6 @@
+package com.springboot.learnjpaandhibernate.jpa;
+
+@Repository
+public class JpaRepository {
+
+}

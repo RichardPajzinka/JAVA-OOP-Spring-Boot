@@ -1,0 +1,20 @@
+package com.project.learnspring.game;
+
+public class GameRunner {
+	private GamingConsole game;
+
+	public GameRunner(GamingConsole game) {
+		// TODO Auto-generated constructor stub
+		this.game = game;
+	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Running game: " + game);
+		game.down();
+		game.right();
+		game.left();
+		game.up();
+	}
+
+}

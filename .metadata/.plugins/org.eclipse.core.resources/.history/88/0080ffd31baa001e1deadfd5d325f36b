@@ -1,0 +1,9 @@
+package com.springboot.learnjpaandhibernate.jpa;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class JpaRepository {
+	private Entitymanager entityManager;
+
+}

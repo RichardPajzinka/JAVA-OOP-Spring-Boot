@@ -1,0 +1,5 @@
+package com.SpringBoot.com.SpringBoot.bean;
+
+public class Course {
+
+}

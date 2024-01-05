@@ -1,0 +1,19 @@
+package com.springboot.learnjpaandhibernate.jpa;
+
+import org.springframework.stereotype.Repository;
+
+import com.springboot.learnjpaandhibernate.Course;
+
+import jakarta.persistence.EntityManager;
+
+@Repository
+public class JpaRepository {
+
+	@Persisten
+	private EntityManager entityManager;
+
+	public void insert(Course course) {
+		entityManager.merge(course);
+	}
+
+}

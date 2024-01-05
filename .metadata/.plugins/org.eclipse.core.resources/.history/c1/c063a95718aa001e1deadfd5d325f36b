@@ -1,0 +1,7 @@
+package com.springboot.learnjpaandhibernate.jdbc;
+
+import org.springframework.boot.CommandLineRunner;
+
+public class JdbcCommandLineRunner implements CommandLineRunner {
+
+}

@@ -1,0 +1,10 @@
+package com.project.learnspring;
+
+import com.project.learnspring.game.GameRunner;
+import com.project.learnspring.game.PacManGame;
+
+public class App02Spring {
+
+	
+
+}

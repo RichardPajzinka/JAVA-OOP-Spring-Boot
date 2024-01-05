@@ -1,0 +1,9 @@
+package com.project.learnspring;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SpringConfigurationClass {
+	
+
+}

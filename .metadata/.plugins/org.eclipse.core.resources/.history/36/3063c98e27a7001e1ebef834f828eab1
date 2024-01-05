@@ -1,0 +1,23 @@
+package com.project.learnspring;
+
+import org.springframework.beans.BeansException;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.project.learnspring.game.GamingConsole;
+
+public class App03GamingMainSpringBeans {
+
+	public static void main(String[] args) {
+		
+		try (var context = new AnnotationConfigApplicationContext(GamingConfiguration.class)) {
+			context.getBean(GamingConsole.class).up();
+		} catch (BeansException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			
+
+	}
+
+
+}

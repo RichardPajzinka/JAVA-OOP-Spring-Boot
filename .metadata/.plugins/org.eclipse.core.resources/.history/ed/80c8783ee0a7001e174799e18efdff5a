@@ -1,0 +1,26 @@
+package com.project.learnspring;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.project.learnspring.game.GameRunner;
+import com.project.learnspring.game.GamingConsole;
+
+@Configuration
+@ComponentScan("com.project.learnspring.game")
+public class App03GamingMainSpringBeans {
+
+	public static void main(String[] args) {
+		
+		try (var context = new AnnotationConfigApplicationContext(App03GamingMainSpringBeans.class)) {
+			context.getBean(GamingConsole.class).up();
+			context.getBean(GameRunner.class).run();
+
+		}
+
+
+	}
+	
+
+}

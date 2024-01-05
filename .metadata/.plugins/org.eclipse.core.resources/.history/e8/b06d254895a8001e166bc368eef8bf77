@@ -1,0 +1,26 @@
+package com.project.learnspring.examples.h1;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.stereotype.Component;
+
+
+
+@Configuration
+@ComponentScan
+public class SimpleInitializationLauncherApplication {
+
+	public static void main(String[] args) {
+		
+		try (var context = new AnnotationConfigApplicationContext(SimpleInitializationLauncherApplication.class)) {
+			 Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
+			
+		}
+
+
+	}
+	
+
+}

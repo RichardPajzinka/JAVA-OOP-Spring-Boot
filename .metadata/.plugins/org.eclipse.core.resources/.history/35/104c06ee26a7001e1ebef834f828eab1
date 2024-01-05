@@ -1,0 +1,24 @@
+package com.project.learnspring;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.project.learnspring.game.GameRunner;
+import com.project.learnspring.game.PacManGame;
+
+public class App03GamingMainSpringBeans {
+
+	public static void main(String[] args) {
+		
+		var context = new AnnotationConfigApplicationContext(GamingConfiguration.class);
+		
+		// TODO Auto-generated method stub
+		// var game = new MarioGame();
+		// var game = new SuperContraGame();
+		//var game = new PacManGame();
+		//var gameRunner = new GameRunner(game);
+		//gameRunner.run();
+
+	}
+
+
+}
